@@ -224,3 +224,4 @@ void set_time(){
   Serial.println(sec);
   rtc.adjust(DateTime(yea,mont,da,hr,minu,sec));
 }
+
